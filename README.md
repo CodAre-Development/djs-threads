@@ -43,10 +43,10 @@ new threads.ThreadManager("GUILD_THREAD_CHANNEL_ID").join()
 //THREADLERDEN ÇIKMA
 new threads.ThreadManager("GUILD_THREAD_CHANNEL_ID").leave()
 
-//REMOVING USERS FROM THREADS
+//THREADLERDEN ÜYE ATMA
 new threads.ThreadManager("GUILD_THREAD_CHANNEL_ID").remove("USER_ID")
 
-//THREADLERDEN ÜYE ATMA
+//THREADLERE ÜYE EKLEME
 new threads.ThreadManager("GUILD_THREAD_CHANNEL_ID").add("USER_ID")
 
 //THREAD ÜYESİNİN VERİSİNİ ALMA
