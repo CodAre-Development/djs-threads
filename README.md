@@ -35,7 +35,10 @@ client.on("message", (msg) => {
 
 ```js
 //THREAD OLUŞTURMA
-new threads.ThreadManager("GUILD_TEXT_CHANNEL_ID").create(OPTIONS_OBJECT)
+new threads.ThreadManager("GUILD_TEXT_CHANNEL_ID").create({
+   name: 'neden-windows-archtan-daha-iyi',
+   autoArchiveDuration: 60
+   })
 
 //THREADLERE KATILMA
 new threads.ThreadManager("GUILD_THREAD_CHANNEL_ID").join()
