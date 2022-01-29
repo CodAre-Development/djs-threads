@@ -21,7 +21,7 @@ console.log("djs-threads hazır")
 })
 
 client.on("message", (msg) => {
-	if(!message.guild) return
+	if(!msg.guild) return
 	if(msg.author.id == "user_id") {
 	new threads.ThreadManager(msg.channel.id).create({
 	name: 'neden-windows-archtan-daha-iyi',
